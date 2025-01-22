@@ -4,7 +4,6 @@ import { Home, Image, Mail, ListTodo, Sun, Moon } from 'lucide-react';
 import HomePage from './pages/HomePage';
 import Gallery1 from './pages/Gallery1';
 import Gallery2 from './pages/Gallery2';
-import Contact from './pages/Contact';
 import TodoList from './pages/TodoList';
 import { TodoProvider } from './store/TodoContext';
 import { ThemeProvider, useTheme } from './store/ThemeContext';
@@ -23,19 +22,15 @@ function Navigation() {
             </Link>
             <Link to="/gallery1" className="flex items-center px-3 py-2 text-white hover:text-orange-200">
               <Image className="w-5 h-5 mr-1" />
-              Galerie 1
+              Les chats
             </Link>
             <Link to="/gallery2" className="flex items-center px-3 py-2 text-white hover:text-orange-200">
               <Image className="w-5 h-5 mr-1" />
-              Galerie 2
+              Kévin
             </Link>
             <Link to="/todo" className="flex items-center px-3 py-2 text-white hover:text-orange-200">
               <ListTodo className="w-5 h-5 mr-1" />
               Todo List
-            </Link>
-            <Link to="/contact" className="flex items-center px-3 py-2 text-white hover:text-orange-200">
-              <Mail className="w-5 h-5 mr-1" />
-              Contact
             </Link>
           </div>
           <button
