@@ -6,7 +6,7 @@ export default function HomePage() {
       <h1 className="text-4xl font-bold text-orange-800 dark:text-orange-400 mb-8">Marion la plus belle</h1>
       <div className="max-w-3xl">
         <img
-          src="/images/marion.jpg"
+          src="./images/marion.jpg"
           alt="Welcome"
           className="rounded-lg shadow-xl mb-8 w-full h-[600px] object-cover transform -rotate-2 hover:rotate-0 transition-transform duration-300"
         />

@@ -2,9 +2,9 @@ import React from 'react';
 
 function Gallery2() {
   const images = [
-    "/images/kevin1.jpg",
-    "/images/kevin2.jpg",
-    "/images/kevin3.jpg"
+    "./images/kevin1.jpg",
+    "./images/kevin2.jpg",
+    "./images/kevin3.jpg"
   ];
 
   return (
