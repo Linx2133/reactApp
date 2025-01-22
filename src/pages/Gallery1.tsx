@@ -2,16 +2,16 @@ import React from 'react';
 
 function Gallery1() {
   const images = [
-    "https://images.unsplash.com/photo-1682687220742-aba13b6e50ba",
-    "https://images.unsplash.com/photo-1682687221038-404670f09727",
-    "https://images.unsplash.com/photo-1682687220063-4742bd7fd538",
-    "https://images.unsplash.com/photo-1682687220199-d0124f48f95b",
-    "https://images.unsplash.com/photo-1682687220067-469c0f7ec851"
+    "/images/cat1.jpg",
+    "/images/cat2.jpg",
+    "/images/cat3.jpg",
+    "/images/cat4.jpg",
+    "/images/cat5.jpg"
   ];
 
   return (
     <div>
-      <h2 className="text-3xl font-bold text-orange-800 mb-8">Galerie Nature</h2>
+      <h2 className="text-3xl font-bold text-orange-800 mb-8">Phoenix et Chelsea</h2>
       <div className="grid grid-cols-3 gap-4 max-w-5xl mx-auto">
         {images.map((image, index) => {
           // Calculate position classes for octagonal layout
