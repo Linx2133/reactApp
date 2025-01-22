@@ -16,19 +16,19 @@ function Navigation() {
       <div className="max-w-7xl mx-auto px-4">
         <div className="flex justify-between h-16">
           <div className="flex space-x-8">
-            <Link to="reactApp/" className="flex items-center px-3 py-2 text-white hover:text-orange-200">
+            <Link to="/reactApp/" className="flex items-center px-3 py-2 text-white hover:text-orange-200">
               <Home className="w-5 h-5 mr-1" />
               Accueil
             </Link>
-            <Link to="reactApp/gallery1" className="flex items-center px-3 py-2 text-white hover:text-orange-200">
+            <Link to="/reactApp/gallery1" className="flex items-center px-3 py-2 text-white hover:text-orange-200">
               <Image className="w-5 h-5 mr-1" />
               Les chats
             </Link>
-            <Link to="reactApp/gallery2" className="flex items-center px-3 py-2 text-white hover:text-orange-200">
+            <Link to="/reactApp/gallery2" className="flex items-center px-3 py-2 text-white hover:text-orange-200">
               <Image className="w-5 h-5 mr-1" />
               Kévin
             </Link>
-            <Link to="reactApp/todo" className="flex items-center px-3 py-2 text-white hover:text-orange-200">
+            <Link to="/reactApp/todo" className="flex items-center px-3 py-2 text-white hover:text-orange-200">
               <ListTodo className="w-5 h-5 mr-1" />
               Todo List
             </Link>
@@ -55,10 +55,10 @@ function App() {
             <Navigation />
             <main className="max-w-7xl mx-auto px-4 py-8">
               <Routes>
-                <Route path="reactApp/" element={<HomePage />} />
-                <Route path="reactApp/gallery1" element={<Gallery1 />} />
-                <Route path="reactApp/gallery2" element={<Gallery2 />} />
-                <Route path="reactApp/todo" element={<TodoList />} />
+                <Route path="/reactApp/" element={<HomePage />} />
+                <Route path="/reactApp/gallery1" element={<Gallery1 />} />
+                <Route path="/reactApp/gallery2" element={<Gallery2 />} />
+                <Route path="/reactApp/todo" element={<TodoList />} />
               </Routes>
             </main>
           </div>
